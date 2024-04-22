@@ -1,0 +1,64 @@
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+    width: 539px;
+    height: 692px;
+    border-radius: 24px;
+    background: #F6F6F6;
+}
+
+.PhoneNumberDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.termsConditions {
+    display: flex;
+    margin-top: 50px;
+}
+
+.termsConditions > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.termsConditions > a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5434F;
+}
+
+.otpText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #757575;
+    margin: auto;
+    /* Weight : 400
+Size
+16px
+Line height
+24px */
+}
+
+.verificationImageTitle {
+    font-family:'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #111111;
+}
+
+
+.verificationImageDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
